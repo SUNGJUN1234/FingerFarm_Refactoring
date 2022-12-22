@@ -35,7 +35,7 @@
     </FrameLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnv"
+        android:id="@+id/bnvMain"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/white"

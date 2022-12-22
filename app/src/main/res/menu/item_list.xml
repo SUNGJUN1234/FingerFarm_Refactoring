@@ -3,15 +3,19 @@
 
 
     <item
+        android:id="@+id/tab1"
         android:icon="@drawable/ic_main_home"
-        android:title="tab1" />
+        android:title="Home" />
     <item
+        android:id="@+id/tab2"
         android:icon="@drawable/ic_main_sprout"
-        android:title="tab2" />
+        android:title="Sprout" />
     <item
+        android:id="@+id/tab3"
         android:icon="@drawable/ic_main_pencil"
-        android:title="tab3" />
+        android:title="Board" />
     <item
+        android:id="@+id/tab4"
         android:icon="@drawable/ic_main_chat"
-        android:title="tab4" />
+        android:title="Chat" />
 </menu>
