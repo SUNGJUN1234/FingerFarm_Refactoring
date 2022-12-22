@@ -24,8 +24,9 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
-        // 상태 표시줄 숨기기
-        supportActionBar?.hide()
+//        개별 상태 표시줄 숨기기
+//        supportActionBar?.hide()
+
         // Firebase 연동
         auth = Firebase.auth
 
