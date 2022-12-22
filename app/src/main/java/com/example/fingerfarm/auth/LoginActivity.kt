@@ -63,6 +63,12 @@ class LoginActivity : AppCompatActivity() {
             val email = etLoginEmail.text.toString()
             val pw = etLoginPw.text.toString()
 
+            // 입력 칸이 비어있다면 토스트 띄우기
+            if(etLoginEmail.text.isEmpty() || etLoginPw.text.isEmpty()){
+                Toast.makeText(this,"기입란을 전부 채워주세요",Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
             auth.signInWithEmailAndPassword(email,pw)
                 .addOnCompleteListener(this){ task->
                     // 만약 로그인에 성공했다면
